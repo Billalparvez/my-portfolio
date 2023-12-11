@@ -13,9 +13,9 @@ const Navbar = () => {
         <NavLink to="/projects"><a>projects</a></NavLink>
     </>
     return (
-        <div className='bg-[#0a101e] w-full z-10 md:fixed lg:fixed p-3    '>
+        <div className='bg-[#0a101e] w-full z-10 md:fixed lg:fixed py-3    '>
             <Container>
-                <div className="navbar flex justify-between  ">
+                <div className="navbar flex justify-between px-0 ">
                     <div className="navbar-start ">
                         <div className="dropdown text-black">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
