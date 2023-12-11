@@ -13,7 +13,7 @@ const Navbar = () => {
         <NavLink to="/projects"><a>projects</a></NavLink>
     </>
     return (
-        <div className='bg-[#2b2e32] w-full z-10 md:fixed lg:fixed p-3    '>
+        <div className='bg-[#0a101e] w-full z-10 md:fixed lg:fixed p-3    '>
             <Container>
                 <div className="navbar flex justify-between  ">
                     <div className="navbar-start ">
