@@ -1,0 +1,10 @@
+
+ul a {
+    margin-right: 10px;
+    font-weight: 700;
+    
+}
+ul .active{
+    color: red;
+}
+
