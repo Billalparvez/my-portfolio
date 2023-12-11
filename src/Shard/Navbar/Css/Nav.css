@@ -1,5 +1,8 @@
 body{
     font-family: 'Caveat', cursive;
+    background-color: #2b2e32;
+    color: white;
+
 }
 ul a {
     margin-left: 20px;
@@ -8,6 +11,6 @@ ul a {
     
 }
 ul .active{
-    color: red;
+    color: orange
 }
 

@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import Container from '../../Shard/Container'
 import './Css/Nav.css'
+import { GiVineFlower } from "react-icons/gi";
 
-  
 
 const Navbar = () => {
     const navLink = <>
@@ -14,8 +14,8 @@ const Navbar = () => {
     </>
     return (
         <Container>
-            <div className="navbar bg-base-100 flex justify-between">
-                <div className="navbar-start w-0">
+            <div className="navbar  flex justify-between">
+                <div className="navbar-start ">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -24,16 +24,17 @@ const Navbar = () => {
                             {navLink}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-3xl">Billal Hossain</a>
+                    <a className='text-3xl mr-3 text-orange-400 '><GiVineFlower /></a>
+                    <a className="text-3xl"> Billal Hoss<span className='text-orange-400'>ain</span></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {navLink}
                     </ul>
                 </div>
-                <div>
-                    <h1 className='text-2xl'>ContaCt me<span className='border-l-2 border-green-600 ml-3'>01859734969</span></h1>
-                   
+                <div className='navbar-end'>
+                    <h1 className='text-2xl'>ContaCt me<span className='border-l-2 border-orange-400 ml-3'>01859734969</span></h1>
+
                 </div>
             </div>
         </Container>
