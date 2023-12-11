@@ -1,7 +1,10 @@
-
+body{
+    font-family: 'Caveat', cursive;
+}
 ul a {
-    margin-right: 10px;
+    margin-left: 20px;
     font-weight: 700;
+    font-size: 20px;
     
 }
 ul .active{

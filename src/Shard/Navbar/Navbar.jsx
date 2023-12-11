@@ -1,6 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import Container from '../../Shard/Container'
 import './Css/Nav.css'
+
+  
+
 const Navbar = () => {
     const navLink = <>
         <NavLink to='/'><a>Home</a></NavLink>
@@ -21,7 +24,7 @@ const Navbar = () => {
                             {navLink}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Billal </a>
+                    <a className="btn btn-ghost text-3xl">Billal Hossain</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -29,7 +32,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                    <h1>ContaCt me</h1>
+                    <h1 className='text-2xl'>ContaCt me<span className='border-l-2 border-green-600 ml-3'>01859734969</span></h1>
+                   
                 </div>
             </div>
         </Container>
