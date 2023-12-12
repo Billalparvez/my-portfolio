@@ -1,6 +1,5 @@
 import { BsChevronDoubleLeft, BsChevronDoubleRight } from "react-icons/bs";
-import Container from "../../Shard/Container";
-
+import Container from '../../../Shard/Container'
 
 const Skills = () => {
     return (
@@ -11,9 +10,9 @@ const Skills = () => {
             </div>
             <div className="my-20 flex gap-7 flex-col  md:flex-row p-3 md:p-0 ">
                 <div className="flex-1">
-                    <h1 className="text-5xl">All the skills that I have in that field of work are mentioned..</h1><br />
-                    <p className="text-3xl">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores. <br /><br />
-                        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+                    <h1 className="text-5xl">All the skills that I have in that field of work are mentioned....</h1><br />
+                    <p className="text-3xl ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p> <br /><br />
+                    <p className="text-3xl hidden lg:block">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
                 </div>
                 <div className="flex-1 space-y-0">
                     <div className="flex justify-between">

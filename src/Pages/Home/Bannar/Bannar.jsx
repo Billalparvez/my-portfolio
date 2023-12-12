@@ -1,7 +1,7 @@
 
 const Bannar = () => {
     return (
-        <div className="hero min-h-screen " style={{ backgroundImage: 'url(https://i.postimg.cc/50YpP0VL/water-droplets-body-water.jpg)' }}>
+        <div className="hero min-h-screen mb-10 hover:" style={{ backgroundImage: 'url(https://i.postimg.cc/50YpP0VL/water-droplets-body-water.jpg)' }}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="space-y-3">
