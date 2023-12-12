@@ -5,7 +5,8 @@ import { Carousel } from 'react-responsive-carousel';
 import Container from '../../../Shard/Container'
 const Projects = () => {
     return (
-        <div>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-center">
             <Container>
                 <div className="max-w-xs mx-auto text-center">
                     <h1 className="text-5xl ">My Projects</h1>
