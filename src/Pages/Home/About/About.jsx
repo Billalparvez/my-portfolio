@@ -20,7 +20,7 @@ const About = () => {
                     <p> From : Dhaka,Bangladesh</p>
                     <p> Language : Bangla, English</p>
                     <p>I do not have a brother, the lack of a brother makes me cry all the time .</p>
-                    <a href="document.js.pdf" download="document.js.pdf" className="btn text-white  bg-amber-600 font-bold text-3xl rounded-tl-3xl rounded-br-3xl hover:bg-orange-600 border-none">Download CV</a>
+                    <a href="/document.js.pdf" download="/document.js.pdf" className="btn text-white  bg-amber-600 font-bold text-3xl rounded-tl-3xl rounded-br-3xl hover:bg-orange-600 border-none">Download CV</a>
                 </div>
             </div>
         </Container>
