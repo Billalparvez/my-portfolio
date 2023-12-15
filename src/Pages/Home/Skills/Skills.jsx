@@ -11,7 +11,7 @@ const Skills = () => {
             <div className="my-20 flex gap-7 flex-col  md:flex-row p-3 md:p-0 ">
                 <div data-aos="zoom-in-right" className="px-3 md:px-0 flex-1">
                     <h1 className="text-5xl">All the skills that I have in that field of work are mentioned....</h1><br />
-                    <p className="text-3xl ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.</p> <br /><br />
+                   
                     <p className="text-3xl hidden lg:block">Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
                 </div>
                 <div data-aos="zoom-in-left" className=" px-3 md:px-0 flex-1 space-y-0">
@@ -41,6 +41,11 @@ const Skills = () => {
                     </div>
                     <progress className="progress progress-warning w-full h-1" value="40" max="100"></progress>
                     <div className="flex justify-between">
+                        <h1>Express & Cors</h1>
+                        <p className="text-amber-500">45%</p>
+                    </div>
+                    <progress className="progress progress-warning w-full h-1" value="45" max="100"></progress>
+                    <div className="flex justify-between">
                         <h1>Firebase Authentication</h1>
                         <p className="text-amber-500">30%</p>
                     </div>
@@ -57,7 +62,7 @@ const Skills = () => {
                     <progress className="progress progress-warning w-full h-1" value="30" max="100"></progress>
                     <div className="flex justify-between">
                         <h1>DaisyUI and Bootstrap</h1>
-                        <p className="text-amber-500">50%</p>
+                        <p className="text-amber-500">45%</p>
                     </div>
                     <progress className="progress progress-warning w-full h-1" value="50" max="100"></progress>
 

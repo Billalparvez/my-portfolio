@@ -25,8 +25,9 @@ const Navbar = () => {
                                 {navLink}
                             </ul>
                         </div>
+                        {/* font-family: 'Caveat', cursive */}
                         <a className='text-3xl mr-3 text-orange-400 '><GiVineFlower /></a>
-                        <a className="text-3xl"> Billal Hoss<span className='text-orange-400'>ain</span></a>
+                        <a className="text-3xl font-serif "> Billal Hoss<span className='text-orange-400'>ain</span></a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
