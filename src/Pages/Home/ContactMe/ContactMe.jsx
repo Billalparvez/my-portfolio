@@ -76,7 +76,7 @@ const ContactMe = () => {
                             <input className=" w-full p-4 text-3xl outline-amber-500 bg-gray-800" placeholder="Your Subject" {...register("subject", { required: true })} />
                             <textarea className="w-full px-4 text-3xl outline-black bg-gray-800" name="message" placeholder="Message" id="" cols="" rows="4"{...register("message", { required: true })}></textarea> <br />
 
-                        <button className="btn bg-amber-600 text-white font-bold text-3xl rounded-tl-3xl rounded-br-3xl hover:bg-orange-600 border-none">Download CV</button>
+                        <button className="btn bg-amber-600 text-white font-bold text-3xl rounded-tl-3xl rounded-br-3xl hover:bg-orange-600 border-none">Send Message</button>
                     </form>
                 </div>
         </div>
