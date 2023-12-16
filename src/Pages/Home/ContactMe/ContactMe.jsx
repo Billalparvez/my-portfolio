@@ -43,7 +43,7 @@ const ContactMe = () => {
 
                             <div className="">
                                 <h3 className="text-3xl hover:text-amber-400">Phone</h3>
-                                <p className="text-2xl hover:text-amber-400">01859734969</p>
+                                <p className="text-2xl hover:text-amber-400">+88 01859734969</p>
 
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const ContactMe = () => {
                         </div>
                         <h1 className="text-3xl hover:text-amber-400">Visite my social profile and get connected</h1>
                         <div className="flex px-10 gap-5 text-3xl mt-3">
-                        
+
                             <a href="https://github.com/Billalparvez" className="border p-3 rounded-full hover:text-amber-400 text-gray-400"><AiFillGithub></AiFillGithub></a>
                             <a href="https://web.facebook.com/ac.abcd.a908/" className="hover:text-amber-400 border p-3 rounded-full text-gray-400"><FaFacebook /></a>
                             <a href="https://www.youtube.com/channel/UCb8AIlttTZBfamx1Ab-nefQ" className="hover:text-amber-400 border p-3 rounded-full text-gray-400 "><FaYoutube /></a>
@@ -76,13 +76,12 @@ const ContactMe = () => {
                             <input className=" w-full p-4 text-3xl outline-amber-500 bg-gray-800" placeholder="Your Subject" {...register("subject", { required: true })} />
                             <textarea className="w-full px-4 text-3xl outline-black bg-gray-800" name="message" placeholder="Message" id="" cols="" rows="4"{...register("message", { required: true })}></textarea> <br />
 
-                            <input className="btn text-white  bg-amber-600 font-bold text-3xl rounded-tl-3xl rounded-br-3xl hover:bg-orange-600 border-none" type="submit " value="Send Message" />
-
-                        </form>
-                    </div>
+                        <button className="btn bg-amber-600 text-white font-bold text-3xl rounded-tl-3xl rounded-br-3xl hover:bg-orange-600 border-none">Download CV</button>
+                    </form>
                 </div>
-            </Container>
         </div>
+            </Container >
+        </div >
     );
 };
 

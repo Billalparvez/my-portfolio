@@ -10,7 +10,7 @@ const Navbar = () => {
         <NavLink to="/about"><a>About</a></NavLink>
         <NavLink to="/contactMe"><a>Contact Me</a></NavLink>
         <NavLink to="/skills"><a>Skill</a></NavLink>
-        <NavLink to="/projects"><a>projects</a></NavLink>
+        <NavLink to="/projects"><a>Projects</a></NavLink>
     </>
     return (
         <div className='bg-[#0a101e] w-full z-10 md:fixed lg:fixed py-3    '>
@@ -19,7 +19,7 @@ const Navbar = () => {
                     <div className="navbar-start ">
                         <div className="dropdown text-black">
                             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </div>
                             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                                 {navLink}
@@ -27,7 +27,7 @@ const Navbar = () => {
                         </div>
                         {/* font-family: 'Caveat', cursive */}
                         <a className='text-3xl mr-3 text-orange-400 '><GiVineFlower /></a>
-                        <a className="text-3xl font-serif "> Billal Hoss<span className='text-orange-400'>ain</span></a>
+                        <a className="text-3xl "> Billal Hoss<span className='text-orange-400'>ain</span></a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
@@ -35,7 +35,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='navbar-end '>
-                        <h1 className='text-2xl hidden md:block lg:block'>Contact me<span className='border-l-2 border-orange-400 ml-3'> 01859734969</span></h1>
+                        <h1 className='text-2xl hidden md:block lg:block'>Contact me<span className='border-l-2 border-orange-400 ml-3'> +88 01859734969</span></h1>
                     </div>
                 </div>
             </Container>
